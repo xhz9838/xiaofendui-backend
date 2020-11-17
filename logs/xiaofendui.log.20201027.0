@@ -1,0 +1,134 @@
+2020-10-27 09:47:16.812 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 09:47:16.855 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 09:47:16.856 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 09:47:17.012 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 09:47:17.013 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 2002 ms
+2020-10-27 09:47:18.274 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 09:47:18.457 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 09:47:18.792 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 13:23:11.360 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 13:23:11.384 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 13:23:11.384 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 13:23:11.480 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 13:23:11.480 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1157 ms
+2020-10-27 13:23:12.330 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 13:23:12.463 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 13:23:12.729 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 14:48:38.774 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 14:48:38.961 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 14:48:39.868 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 14:48:40.831 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:11:52.533 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:11:52.714 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:11:53.761 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:11:54.745 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:51:17.315 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:51:17.455 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:51:18.790 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:51:19.657 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:51:31.595 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:51:31.937 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:51:32.957 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:55:56.665 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:01.671 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:01.803 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:56:02.444 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:56:03.118 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:13.122 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:13.271 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:56:14.008 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:56:45.858 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:51.106 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 16:56:51.295 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 16:56:52.031 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 16:57:04.819 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:30:42.314 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:30:42.441 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:30:43.108 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:30:43.790 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:32:03.361 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:32:03.483 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:32:04.090 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:32:04.639 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:35:23.132 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:35:23.261 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:35:23.883 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:35:24.518 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:35:37.050 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:35:37.203 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:35:38.041 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:35:38.769 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:36:03.281 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:36:03.434 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:36:04.267 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:36:05.145 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:36:54.227 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:36:54.399 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:36:55.134 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:37:12.319 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:37:17.751 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:37:17.997 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:37:18.919 WARN  [main] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:38:02.464 INFO  [Thread-2] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:44:33.999 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 17:44:34.019 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 17:44:34.019 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 17:44:34.124 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 17:44:34.125 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 896 ms
+2020-10-27 17:44:34.289 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:44:34.353 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:44:34.444 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 17:46:10.485 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:46:10.485 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:46:10.491 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-27 17:46:11.092 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:47:46.471 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 17:47:46.535 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 17:47:46.536 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 17:47:46.830 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 17:47:46.830 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1298 ms
+2020-10-27 17:47:47.138 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:47:47.221 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:47:47.466 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 17:47:50.505 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:47:50.505 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:47:50.512 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-27 17:47:50.947 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:51:42.298 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:51:48.732 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 17:51:48.796 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 17:51:48.798 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 17:51:48.994 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 17:51:48.994 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1184 ms
+2020-10-27 17:51:49.153 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:51:49.293 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:51:49.479 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 17:51:53.482 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:51:53.483 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:51:53.487 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-27 17:51:53.820 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:52:49.332 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 17:52:49.376 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 17:52:49.377 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 17:52:49.582 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 17:52:49.582 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1013 ms
+2020-10-27 17:52:49.743 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:52:49.813 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:52:49.923 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 17:52:56.171 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:52:56.172 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:52:56.182 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-27 17:52:56.547 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:55:30.881 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-27 17:55:30.901 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-27 17:55:30.901 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-27 17:55:31.089 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-27 17:55:31.089 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1044 ms
+2020-10-27 17:55:31.333 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-27 17:55:31.409 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-27 17:55:31.534 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-27 17:55:37.156 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-27 17:55:37.156 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-27 17:55:37.162 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-27 17:55:37.534 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-27 17:59:11.991 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'

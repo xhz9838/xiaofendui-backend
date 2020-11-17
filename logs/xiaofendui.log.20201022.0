@@ -1,0 +1,164 @@
+2020-10-22 15:59:24.793 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 15:59:24.820 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 15:59:24.820 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 15:59:24.916 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 15:59:24.917 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1535 ms
+2020-10-22 15:59:25.915 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 15:59:26.074 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 15:59:26.324 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 15:59:58.501 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 15:59:58.502 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 15:59:58.511 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 9 ms
+2020-10-22 16:00:13.823 INFO  [http-nio-80-exec-9] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:00:14.163 INFO  [http-nio-80-exec-9] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:02:21.454 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:02:21.490 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:02:21.492 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:02:21.612 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:02:21.613 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1375 ms
+2020-10-22 16:02:22.396 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:02:22.508 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:02:22.729 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:02:22.793 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:02:22.793 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:02:22.799 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-22 16:02:23.193 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:02:23.352 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:05:14.842 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:05:14.870 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:05:14.871 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:05:14.973 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:05:14.974 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1655 ms
+2020-10-22 16:05:16.068 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:05:16.207 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:05:16.501 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:05:20.808 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:05:20.808 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:05:20.815 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-22 16:05:21.280 INFO  [http-nio-80-exec-10] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:05:21.444 INFO  [http-nio-80-exec-10] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:07:20.687 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:07:20.708 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:07:20.708 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:07:20.790 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:07:20.790 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1202 ms
+2020-10-22 16:07:21.553 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:07:21.654 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:07:21.826 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:07:29.091 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:07:29.092 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:07:29.099 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-22 16:07:29.446 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:07:29.627 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:10:06.397 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:10:06.424 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:10:06.424 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:10:06.529 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:10:06.530 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1777 ms
+2020-10-22 16:10:07.634 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:10:07.796 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:10:08.179 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:10:20.395 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:10:20.395 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:10:20.402 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-22 16:10:20.770 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:10:20.911 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:10:38.545 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:10:38.568 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:10:38.569 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:10:38.665 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:10:38.665 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1895 ms
+2020-10-22 16:10:39.874 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:10:40.033 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:10:40.317 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:10:46.219 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:10:46.219 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:10:46.228 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 9 ms
+2020-10-22 16:10:46.585 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:10:46.757 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:13:09.607 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:13:09.626 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:13:09.626 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:13:09.708 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:13:09.708 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1114 ms
+2020-10-22 16:13:10.474 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:13:10.568 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:13:10.748 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:13:18.928 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:13:18.928 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:13:18.938 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 9 ms
+2020-10-22 16:13:19.258 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:13:19.408 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:16:12.385 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:16:12.407 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:16:12.407 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:16:12.488 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:16:12.489 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1208 ms
+2020-10-22 16:16:13.285 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:16:13.400 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:16:13.609 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:16:14.962 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:16:14.963 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:16:14.970 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-22 16:16:15.360 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:16:15.535 INFO  [http-nio-80-exec-3] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:21:07.282 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:21:07.302 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:21:07.302 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:21:07.382 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:21:07.382 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1187 ms
+2020-10-22 16:21:08.120 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:21:08.220 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:21:08.394 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:21:12.506 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:21:12.507 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:21:12.514 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-22 16:21:12.869 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:21:13.024 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:22:36.143 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:22:36.162 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:22:36.162 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:22:36.241 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:22:36.242 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1191 ms
+2020-10-22 16:22:36.989 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:22:37.099 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:22:37.266 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:22:52.935 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:22:52.936 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:22:52.944 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 8 ms
+2020-10-22 16:22:53.285 INFO  [http-nio-80-exec-5] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:22:53.431 INFO  [http-nio-80-exec-5] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:24:15.947 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:24:15.972 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:24:15.972 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:24:16.069 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:24:16.070 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1674 ms
+2020-10-22 16:24:17.047 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:24:17.175 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:24:17.433 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:24:20.754 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:24:20.754 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:24:20.761 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-22 16:24:21.169 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[110] - HikariPool-1 - Starting...
+2020-10-22 16:24:21.332 INFO  [http-nio-80-exec-4] com.zaxxer.hikari.HikariDataSource[123] - HikariPool-1 - Start completed.
+2020-10-22 16:26:39.118 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-22 16:27:45.812 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:27:45.833 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:27:45.834 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:27:45.920 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:27:45.921 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1274 ms
+2020-10-22 16:27:46.668 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:27:46.776 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:27:46.969 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:27:51.058 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:34:29.158 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-22 16:34:29.182 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-22 16:34:29.183 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-22 16:34:29.279 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-22 16:34:29.279 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1106 ms
+2020-10-22 16:34:30.093 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-22 16:34:30.212 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-22 16:34:30.404 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-22 16:35:40.526 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-22 16:35:40.527 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-22 16:35:40.535 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 8 ms

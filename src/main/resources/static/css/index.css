@@ -1,0 +1,55 @@
+section .frame{
+    display: flex;
+    flex-direction: column;
+    border: 2px rgba(39, 4, 121, 0.411) solid;
+    background-color: rgba(4, 63, 119, 0.336);
+    margin: 10px 10px 10px 10px;
+}
+section div h3{
+    color: #ccc;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+    border: 3px rgba(66, 37, 153, 0.521) solid;
+    background-color: rgba(66, 37, 153, 0.521);
+    text-shadow: 2px 2px rgba(14, 3, 54, 0.74);
+    border-radius: 10px;
+    box-shadow: 1.5px -1.5px rgba(14, 3, 54, 0.74);
+}
+section div a{
+    /* display: block; */
+    font-size: 21px;
+    margin: 5px 5px 5px 20px;
+    color: #ccc;
+}
+section div a:hover{
+    background-color: rgba(10, 21, 126, 0.377);
+    text-shadow: 2px rgba(14, 3, 54, 0.74);
+    font-weight: bold;
+    color: #fff;
+}
+span>span{
+    /* display: block; */
+    margin-right: 200px;
+}
+span>span>a{
+    display: block;
+    font-size: 12px;
+    float: right;
+    box-shadow: 1px -1px rgba(36, 35, 35, 0.8);
+}
+.online{
+    display: block;
+    width: 1000px;
+    height: 30px;
+    background-color: rgba(82, 54, 119, 0.685);
+    margin: 5px 20px;
+    box-shadow: 2px -2px rgba(44, 43, 43, 0.8);
+}
+.area{
+    margin: 5px auto;
+}
+
+#fileId{
+
+}

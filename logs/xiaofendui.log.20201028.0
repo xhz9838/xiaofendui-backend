@@ -1,0 +1,1342 @@
+2020-10-28 09:12:34.063 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 09:12:34.088 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 09:12:34.089 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 09:12:34.207 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 09:12:34.208 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1072 ms
+2020-10-28 09:12:34.472 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:12:34.577 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 09:12:34.799 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 09:15:06.827 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 09:15:06.827 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 09:15:06.831 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 09:15:07.170 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 09:40:06.678 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 09:40:06.694 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 09:40:06.694 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 09:40:06.796 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 09:40:06.796 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 768 ms
+2020-10-28 09:40:06.938 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:40:07.002 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 09:40:07.093 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 09:40:24.064 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 09:40:24.064 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 09:40:24.068 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 09:40:24.339 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 09:41:03.705 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 09:41:03.720 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 09:41:03.720 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 09:41:03.809 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 09:41:03.809 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 683 ms
+2020-10-28 09:41:03.937 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:41:03.992 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 09:41:04.073 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 09:41:45.852 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 09:41:45.853 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 09:41:45.858 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 09:41:46.108 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 09:44:25.259 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 09:44:25.278 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 09:44:25.279 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 09:44:25.384 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 09:44:25.385 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 843 ms
+2020-10-28 09:44:25.647 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:44:25.717 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 09:44:25.823 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 09:44:38.143 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 09:44:38.143 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 09:44:38.149 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 09:44:38.445 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 09:59:15.612 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:59:21.126 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 09:59:21.141 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 09:59:21.141 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 09:59:21.231 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 09:59:21.231 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 729 ms
+2020-10-28 09:59:21.362 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 09:59:21.418 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 09:59:21.500 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 09:59:34.588 INFO  [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 09:59:34.588 INFO  [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 09:59:34.592 INFO  [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 09:59:34.861 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:05:57.827 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:05:57.843 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:05:57.843 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:05:57.929 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:05:57.930 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 713 ms
+2020-10-28 10:05:58.058 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:05:58.115 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:05:58.197 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:06:05.699 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:06:05.700 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:06:05.703 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 10:06:05.962 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:28:57.541 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:28:57.558 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:28:57.558 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:28:57.652 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:28:57.653 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 745 ms
+2020-10-28 10:28:57.783 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:28:57.838 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:28:57.921 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:29:21.507 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:29:21.507 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:29:21.511 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 10:29:21.778 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:30:30.010 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:30:30.027 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:30:30.028 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:30:30.123 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:30:30.124 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 814 ms
+2020-10-28 10:30:30.298 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:30:30.371 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:30:30.469 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:30:47.937 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:30:47.938 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:30:47.944 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 10:30:48.232 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:31:25.803 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:31:30.374 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:31:30.389 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:31:30.389 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:31:30.478 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:31:30.479 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 692 ms
+2020-10-28 10:31:30.606 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:31:30.662 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:31:30.743 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:31:44.780 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:31:44.780 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:31:44.783 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 10:31:45.029 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:35:44.232 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:35:44.246 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:35:44.247 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:35:44.336 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:35:44.337 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 718 ms
+2020-10-28 10:35:44.466 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:35:44.521 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:35:44.605 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:35:50.347 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:35:50.347 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:35:50.352 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 10:35:50.605 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:38:08.252 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:38:08.273 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:38:08.274 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:38:08.363 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:38:08.364 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 710 ms
+2020-10-28 10:38:08.496 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:38:08.551 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:38:08.635 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:39:16.581 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:39:16.582 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:39:16.586 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 10:39:16.859 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:42:37.678 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:42:37.694 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:42:37.694 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:42:37.786 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:42:37.786 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 709 ms
+2020-10-28 10:42:37.927 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:42:37.985 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:42:38.068 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:43:31.722 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:43:31.723 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:43:31.727 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 10:43:32.003 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:50:33.368 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:50:33.382 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:50:33.383 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:50:33.480 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:50:33.481 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 739 ms
+2020-10-28 10:50:33.622 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:50:33.684 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:50:33.769 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:50:51.710 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:50:51.711 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:50:51.716 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 10:51:02.250 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 10:52:46.974 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 10:52:46.994 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 10:52:46.995 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 10:52:47.093 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 10:52:47.093 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 802 ms
+2020-10-28 10:52:47.254 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 10:52:47.321 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 10:52:47.418 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 10:54:36.903 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 10:54:36.903 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 10:54:36.909 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 10:54:37.256 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:03:11.018 INFO  [Thread-3] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:03:16.303 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:03:16.318 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:03:16.319 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:03:16.407 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:03:16.407 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 703 ms
+2020-10-28 11:03:16.534 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:03:16.591 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:03:16.674 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:03:27.541 INFO  [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:03:27.541 INFO  [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:03:27.545 INFO  [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:03:27.790 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:11:03.253 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:11:03.268 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:11:03.269 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:11:03.359 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:11:03.359 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 696 ms
+2020-10-28 11:11:03.485 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:11:03.541 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:11:03.625 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:11:08.085 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:11:08.085 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:11:08.089 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:11:08.337 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:17:50.362 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:17:50.379 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:17:50.380 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:17:50.472 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:17:50.473 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 798 ms
+2020-10-28 11:17:50.603 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:17:50.659 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:17:50.742 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:18:02.547 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:18:02.548 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:18:02.554 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 11:34:52.348 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:34:52.364 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:34:52.364 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:34:52.456 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:34:52.456 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 730 ms
+2020-10-28 11:34:52.590 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:34:52.648 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:34:52.734 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:36:32.633 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:36:32.648 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:36:32.649 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:36:32.745 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:36:32.746 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 751 ms
+2020-10-28 11:36:32.882 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:36:32.939 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:36:33.026 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:36:46.447 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:36:46.447 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:36:46.451 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:36:56.230 WARN  [http-nio-80-exec-9] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:37:44.610 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:37:44.625 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:37:44.625 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:37:44.718 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:37:44.719 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 694 ms
+2020-10-28 11:37:44.845 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:37:44.907 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:37:45.009 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:37:54.003 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:37:54.018 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:37:54.018 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:37:54.107 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:37:54.107 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 674 ms
+2020-10-28 11:37:54.237 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:37:54.291 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:37:54.373 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:38:00.434 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:38:00.434 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:38:00.438 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:38:00.966 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:38:49.075 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:38:49.093 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:38:49.093 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:38:49.197 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:38:49.198 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 826 ms
+2020-10-28 11:38:49.338 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:38:49.399 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:38:49.483 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:38:52.413 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:38:52.413 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:38:52.417 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:38:53.023 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:40:08.533 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:40:08.547 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:40:08.547 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:40:08.641 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:40:08.642 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 687 ms
+2020-10-28 11:40:08.777 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:40:08.832 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:40:08.915 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:40:16.340 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:40:16.340 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:40:16.344 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 11:40:16.868 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:41:50.569 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:41:50.584 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:41:50.584 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:41:50.679 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:41:50.680 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 681 ms
+2020-10-28 11:41:50.807 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:41:50.863 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:41:50.947 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:42:05.314 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:42:05.314 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:42:05.318 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 11:42:05.900 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 11:46:08.091 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 11:46:08.107 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 11:46:08.108 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 11:46:08.205 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 11:46:08.205 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 723 ms
+2020-10-28 11:46:08.337 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 11:46:08.394 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 11:46:08.477 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 11:46:13.941 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 11:46:13.941 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 11:46:13.946 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 11:46:14.503 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:41:04.283 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:41:04.301 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:41:04.301 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:41:04.411 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:41:04.411 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 867 ms
+2020-10-28 13:41:04.631 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:41:04.750 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:41:04.878 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:41:23.470 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:41:23.470 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:41:23.477 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 13:41:24.074 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:45:22.720 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:45:22.736 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:45:22.736 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:45:22.831 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:45:22.831 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 771 ms
+2020-10-28 13:45:22.968 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:45:23.031 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:45:23.119 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:45:30.140 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:45:30.141 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:45:30.144 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 13:45:30.657 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:48:38.370 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:48:38.385 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:48:38.386 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:48:38.483 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:48:38.483 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 742 ms
+2020-10-28 13:48:38.630 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:48:38.690 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:48:38.780 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:48:50.273 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:48:50.274 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:48:50.279 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 13:48:50.864 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:49:37.048 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:49:37.064 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:49:37.064 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:49:37.157 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:49:37.157 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 840 ms
+2020-10-28 13:49:37.296 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:49:37.356 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:49:37.447 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:49:43.027 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:49:43.027 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:49:43.033 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 13:49:43.639 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:50:47.888 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:50:47.904 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:50:47.904 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:50:47.997 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:50:47.998 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 753 ms
+2020-10-28 13:50:48.135 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:50:48.194 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:50:48.291 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:50:49.704 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:50:49.704 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:50:49.710 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 13:50:50.236 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:51:49.828 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:51:49.845 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:51:49.845 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:51:49.951 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:51:49.951 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 754 ms
+2020-10-28 13:51:50.104 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:51:50.166 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:51:50.254 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:52:59.031 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:52:59.049 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:52:59.049 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:52:59.144 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:52:59.144 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 761 ms
+2020-10-28 13:52:59.286 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:52:59.345 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:52:59.437 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:53:03.589 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:53:03.590 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:53:03.593 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 13:53:04.101 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:57:31.005 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:57:31.021 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:57:31.022 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:57:31.112 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:57:31.113 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 758 ms
+2020-10-28 13:57:31.250 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:57:31.311 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:57:31.398 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:57:33.929 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:57:33.930 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:57:33.936 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 13:57:34.551 WARN  [http-nio-80-exec-6] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 13:58:19.763 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 13:58:19.780 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 13:58:19.780 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 13:58:19.871 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 13:58:19.871 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 742 ms
+2020-10-28 13:58:20.013 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 13:58:20.072 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 13:58:20.162 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 13:58:21.825 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 13:58:21.825 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 13:58:21.829 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 13:58:22.510 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:05:36.234 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:05:36.250 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:05:36.250 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:05:36.341 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:05:36.342 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 744 ms
+2020-10-28 14:05:36.484 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:05:36.545 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:05:36.633 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:05:50.798 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:05:50.798 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:05:50.804 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 14:05:55.536 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:11:17.249 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:11:17.265 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:11:17.265 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:11:17.358 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:11:17.358 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 742 ms
+2020-10-28 14:11:17.510 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:11:17.586 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:11:17.688 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:11:20.779 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:11:20.779 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:11:20.787 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 8 ms
+2020-10-28 14:11:21.390 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:15:40.477 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:15:40.493 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:15:40.493 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:15:40.585 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:15:40.585 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 769 ms
+2020-10-28 14:15:40.724 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:15:40.786 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:15:40.874 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:15:48.230 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:15:48.230 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:15:48.238 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 8 ms
+2020-10-28 14:15:48.825 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:19:32.630 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:19:32.647 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:19:32.648 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:19:32.764 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:19:32.764 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 902 ms
+2020-10-28 14:19:32.982 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:19:33.066 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:19:33.185 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:19:36.914 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:19:36.914 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:19:36.918 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 14:19:37.472 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:29:56.422 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:29:56.441 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:29:56.441 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:29:56.538 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:29:56.540 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 756 ms
+2020-10-28 14:29:56.680 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:29:56.740 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:29:56.836 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:30:01.489 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:30:01.490 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:30:01.494 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 14:30:02.090 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:37:23.110 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:37:23.127 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:37:23.127 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:37:23.221 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:37:23.222 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 777 ms
+2020-10-28 14:37:23.382 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:37:23.449 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:37:23.545 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:37:32.321 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:37:32.321 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:37:32.324 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 14:37:32.901 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:38:32.959 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:38:32.975 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:38:32.976 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:38:33.067 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:38:33.068 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 789 ms
+2020-10-28 14:38:33.204 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:38:33.261 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:38:33.348 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 14:38:43.237 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 14:38:43.238 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 14:38:43.241 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 14:38:43.931 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 14:43:16.884 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 14:43:16.900 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 14:43:16.900 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 14:43:16.991 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 14:43:16.992 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 743 ms
+2020-10-28 14:43:17.137 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 14:43:17.197 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 14:43:17.286 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:34:07.285 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:34:07.301 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:34:07.301 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:34:07.401 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:34:07.401 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 750 ms
+2020-10-28 15:34:07.554 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:34:07.619 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:34:07.716 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:34:17.137 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 15:34:17.137 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 15:34:17.142 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 15:34:21.297 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 15:40:56.860 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:40:56.875 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:40:56.876 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:40:56.963 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:40:56.963 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 746 ms
+2020-10-28 15:40:57.107 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:40:57.171 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:40:57.258 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:41:00.515 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 15:41:00.515 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 15:41:00.519 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 15:41:01.081 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 15:45:37.124 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:45:37.141 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:45:37.141 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:45:37.229 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:45:37.229 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 713 ms
+2020-10-28 15:45:37.357 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:45:37.418 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:45:37.503 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:45:43.291 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 15:45:43.291 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 15:45:43.295 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 15:45:43.904 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 15:48:44.761 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:48:44.777 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:48:44.777 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:48:44.868 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:48:44.868 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 776 ms
+2020-10-28 15:48:45.000 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:48:45.060 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:48:45.145 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:48:50.576 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 15:48:50.576 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 15:48:50.581 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 15:48:51.185 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 15:51:58.670 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:51:58.687 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:51:58.687 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:51:58.777 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:51:58.778 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 696 ms
+2020-10-28 15:51:58.907 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:51:58.962 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:51:59.045 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 15:52:02.540 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 15:52:02.540 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 15:52:02.543 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 15:52:03.010 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 15:59:49.473 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 15:59:49.488 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 15:59:49.488 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 15:59:49.576 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 15:59:49.577 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 711 ms
+2020-10-28 15:59:49.709 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 15:59:49.765 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 15:59:49.852 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:00:03.299 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:00:03.300 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:00:03.306 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 16:00:03.770 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:03:35.491 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:03:35.510 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:03:35.510 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:03:35.600 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:03:35.600 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 716 ms
+2020-10-28 16:03:35.740 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:03:35.796 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:03:35.879 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:04:23.845 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:04:23.845 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:04:23.848 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 16:04:24.321 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:06:08.116 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:06:08.130 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:06:08.130 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:06:08.221 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:06:08.221 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 697 ms
+2020-10-28 16:06:08.350 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:06:08.408 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:06:08.490 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:06:15.289 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:06:15.290 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:06:15.295 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 16:06:15.806 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:14:02.512 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:14:02.530 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:14:02.530 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:14:02.625 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:14:02.626 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 727 ms
+2020-10-28 16:14:02.767 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:14:02.823 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:14:02.911 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:14:07.216 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:14:07.217 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:14:07.220 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 16:14:07.776 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:15:12.731 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:15:12.745 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:15:12.745 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:15:12.834 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:15:12.834 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 699 ms
+2020-10-28 16:15:12.971 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:15:13.030 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:15:13.115 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:15:21.331 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:15:21.331 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:15:21.336 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 16:15:21.799 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:24:12.197 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:24:12.212 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:24:12.212 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:24:12.302 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:24:12.303 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 740 ms
+2020-10-28 16:24:12.433 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:24:12.497 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:24:12.585 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:24:54.307 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:24:54.322 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:24:54.322 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:24:54.410 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:24:54.411 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 686 ms
+2020-10-28 16:24:54.540 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:24:54.596 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:24:54.680 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:25:02.826 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:25:02.826 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:25:02.830 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 16:25:03.332 WARN  [http-nio-80-exec-6] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:40:16.507 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:40:16.527 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:40:16.528 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:40:16.631 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:40:16.631 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 776 ms
+2020-10-28 16:40:16.760 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:40:16.815 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:40:16.899 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:40:26.538 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:40:26.538 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:40:26.543 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 16:40:26.991 WARN  [http-nio-80-exec-8] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:41:33.165 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:41:33.182 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:41:33.182 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:41:33.273 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:41:33.273 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 691 ms
+2020-10-28 16:41:33.410 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:41:33.468 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:41:33.555 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:41:45.709 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:41:45.710 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:41:45.716 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 16:41:46.238 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:42:15.731 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:42:15.749 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:42:15.749 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:42:15.845 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:42:15.845 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 702 ms
+2020-10-28 16:42:15.979 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:42:16.037 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:42:16.129 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:42:19.718 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:42:19.718 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:42:19.722 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 16:42:20.207 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 16:57:20.635 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 16:57:20.657 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 16:57:20.658 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 16:57:20.776 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 16:57:20.776 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 973 ms
+2020-10-28 16:57:20.958 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 16:57:21.025 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 16:57:21.129 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 16:57:30.484 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 16:57:30.484 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 16:57:30.487 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 16:57:31.028 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:04:35.895 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:04:35.911 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:04:35.912 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:04:36.007 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:04:36.007 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 762 ms
+2020-10-28 17:04:36.139 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:04:36.194 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:04:36.285 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:04:41.621 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:04:41.622 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:04:41.626 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:04:42.120 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:05:08.811 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:05:08.835 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:05:08.835 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:05:08.949 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:05:08.950 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1071 ms
+2020-10-28 17:05:09.115 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:05:09.182 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:05:09.279 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:05:10.538 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:05:10.539 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:05:10.543 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:05:11.053 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:05:15.829 INFO  [http-nio-80-exec-2] o.a.coyote.http11.Http11Processor[175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:468)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-10-28 17:06:01.627 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:06:01.644 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:06:01.644 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:06:01.734 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:06:01.734 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 713 ms
+2020-10-28 17:06:01.873 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:06:01.932 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:06:02.018 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:06:07.789 INFO  [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:06:07.790 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:06:07.794 INFO  [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:06:08.061 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:08:38.257 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:08:38.277 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:08:38.277 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:08:38.400 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:08:38.400 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 847 ms
+2020-10-28 17:08:38.590 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:08:38.662 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:08:38.757 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:08:43.206 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:08:43.206 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:08:43.210 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 17:08:43.724 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:19:13.609 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:19:13.625 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:19:13.626 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:19:13.717 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:19:13.717 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 843 ms
+2020-10-28 17:19:13.865 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:19:13.930 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:19:14.025 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:19:19.567 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:19:19.567 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:19:19.571 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:19:20.119 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:20:12.820 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:20:12.838 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:20:12.838 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:20:12.927 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:20:12.927 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 697 ms
+2020-10-28 17:20:13.064 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:20:13.124 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:20:13.216 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:20:15.752 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:20:15.752 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:20:15.756 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 17:20:16.289 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:27:25.659 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:27:25.681 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:27:25.681 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:27:25.779 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:27:25.779 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 775 ms
+2020-10-28 17:27:25.932 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:27:25.991 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:27:26.077 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:27:30.448 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:27:30.448 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:27:30.451 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 17:27:31.011 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:28:18.108 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:28:18.123 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:28:18.123 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:28:18.213 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:28:18.214 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 725 ms
+2020-10-28 17:28:18.355 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:28:18.416 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:28:18.507 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:28:20.971 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:28:20.971 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:28:20.978 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-28 17:28:21.468 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:36:16.048 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:36:16.063 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:36:16.064 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:36:16.151 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:36:16.152 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 727 ms
+2020-10-28 17:36:16.283 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:36:16.344 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:36:16.430 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:36:28.548 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:36:28.548 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:36:28.557 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 8 ms
+2020-10-28 17:39:26.541 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:39:26.556 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:39:26.556 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:39:26.646 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:39:26.647 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 732 ms
+2020-10-28 17:39:26.786 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:39:26.842 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:39:26.938 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:39:33.564 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:39:33.565 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:39:33.569 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:40:10.631 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:40:10.647 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:40:10.647 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:40:10.749 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:40:10.749 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 783 ms
+2020-10-28 17:40:10.894 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:40:10.951 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:40:11.037 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:40:22.773 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:40:22.773 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:40:22.777 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:42:22.820 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:42:22.835 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:42:22.835 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:42:22.922 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:42:22.923 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 740 ms
+2020-10-28 17:42:23.057 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:42:23.113 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:42:23.198 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:42:33.518 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:42:33.519 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:42:33.522 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 17:42:35.000 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:46:16.945 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:46:16.961 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:46:16.961 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:46:17.052 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:46:17.053 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 833 ms
+2020-10-28 17:46:17.198 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:46:17.256 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:46:17.352 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:46:21.058 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:46:21.058 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:46:21.062 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:46:22.343 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:47:14.530 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:47:14.545 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:47:14.546 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:47:14.639 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:47:14.639 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 773 ms
+2020-10-28 17:47:14.783 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:47:14.842 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:47:14.927 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:47:17.400 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:47:17.401 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:47:17.405 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 17:47:18.236 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 17:48:39.211 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 17:48:39.227 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 17:48:39.227 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 17:48:39.321 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 17:48:39.321 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 747 ms
+2020-10-28 17:48:39.458 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 17:48:39.520 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 17:48:39.609 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 17:48:48.597 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 17:48:48.597 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 17:48:48.602 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 17:48:49.810 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 19:06:02.425 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 19:06:02.444 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 19:06:02.444 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 19:06:02.844 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 19:06:02.845 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1208 ms
+2020-10-28 19:06:02.987 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 19:06:03.044 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 19:06:03.140 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 19:06:12.955 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 19:06:12.956 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 19:06:12.959 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 19:06:15.673 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 20:25:45.639 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 20:25:45.658 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 20:25:45.658 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 20:25:46.094 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 20:25:46.094 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1173 ms
+2020-10-28 20:25:46.241 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 20:25:46.305 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 20:25:46.409 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 20:25:55.685 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 20:25:55.686 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 20:25:55.690 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 20:25:57.526 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 20:33:14.568 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 20:33:14.583 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 20:33:14.584 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 20:33:14.682 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 20:33:14.682 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 687 ms
+2020-10-28 20:33:14.809 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 20:33:14.863 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 20:33:14.948 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 20:34:51.091 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 20:34:51.107 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 20:34:51.107 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 20:34:51.202 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 20:34:51.202 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 750 ms
+2020-10-28 20:34:51.333 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 20:34:51.387 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 20:34:51.470 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 20:35:07.672 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 20:35:07.673 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 20:35:07.678 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 20:35:10.499 WARN  [http-nio-80-exec-9] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:21:27.953 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:21:27.969 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:21:27.970 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:21:28.066 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:21:28.066 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 706 ms
+2020-10-28 21:21:28.200 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:21:28.256 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:21:28.341 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:52:59.313 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:52:59.328 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:52:59.328 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:52:59.418 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:52:59.418 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 923 ms
+2020-10-28 21:52:59.550 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:52:59.606 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:52:59.690 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:53:04.282 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:53:04.282 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:53:04.286 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 21:53:04.805 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:53:26.598 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:53:26.613 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:53:26.613 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:53:26.701 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:53:26.702 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 680 ms
+2020-10-28 21:53:26.829 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:53:26.885 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:53:26.969 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:53:38.896 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:53:38.897 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:53:38.907 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 21:53:39.351 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:55:19.161 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:55:19.177 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:55:19.178 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:55:19.268 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:55:19.268 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 693 ms
+2020-10-28 21:55:19.401 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:55:19.460 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:55:19.552 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:55:24.470 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:55:24.471 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:55:24.474 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 21:55:24.899 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:56:57.545 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:56:57.560 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:56:57.561 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:56:57.660 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:56:57.660 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 716 ms
+2020-10-28 21:56:57.792 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:56:57.848 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:56:57.933 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:57:01.608 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:57:01.609 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:57:01.612 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 21:57:02.056 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:57:55.979 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:57:55.995 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:57:55.995 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:57:56.090 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:57:56.090 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 685 ms
+2020-10-28 21:57:56.231 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:57:56.285 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:57:56.370 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:58:06.929 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:58:06.930 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:58:06.933 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 21:58:07.357 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 21:59:43.029 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 21:59:43.044 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 21:59:43.044 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 21:59:43.142 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 21:59:43.142 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 724 ms
+2020-10-28 21:59:43.271 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 21:59:43.326 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 21:59:43.410 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 21:59:46.582 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 21:59:46.582 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 21:59:46.586 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 21:59:47.046 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:00:35.110 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:00:35.125 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:00:35.126 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:00:35.220 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:00:35.220 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 691 ms
+2020-10-28 22:00:35.348 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:00:35.404 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:00:35.490 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:00:39.482 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:00:39.483 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:00:39.486 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:00:39.935 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:02:30.850 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:02:30.866 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:02:30.866 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:02:30.954 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:02:30.954 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 664 ms
+2020-10-28 22:02:31.082 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:02:31.139 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:02:31.225 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:02:34.614 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:02:34.615 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:02:34.618 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:02:35.116 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:04:48.754 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:04:48.769 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:04:48.770 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:04:48.860 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:04:48.860 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 809 ms
+2020-10-28 22:04:48.989 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:04:49.043 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:04:49.131 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:04:55.681 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:04:55.681 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:04:55.685 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:04:56.127 WARN  [http-nio-80-exec-8] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:07:52.410 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:07:52.428 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:07:52.429 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:07:52.526 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:07:52.527 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 755 ms
+2020-10-28 22:07:52.657 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:07:52.717 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:07:52.806 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:07:58.432 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:07:58.433 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:07:58.436 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:07:58.897 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:12:45.613 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:12:45.627 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:12:45.627 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:12:45.716 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:12:45.716 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 680 ms
+2020-10-28 22:12:45.845 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:12:45.901 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:12:45.984 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:12:57.426 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:12:57.426 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:12:57.430 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 22:12:57.857 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:14:20.167 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:14:20.182 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:14:20.182 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:14:20.271 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:14:20.271 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 669 ms
+2020-10-28 22:14:20.398 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:14:20.453 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:14:20.536 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:14:30.673 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:14:30.673 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:14:30.677 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:14:31.115 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:19:56.708 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:19:56.723 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:19:56.723 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:19:56.816 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:19:56.817 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 665 ms
+2020-10-28 22:19:56.950 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:19:57.004 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:19:57.086 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:20:00.715 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:20:00.715 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:20:00.719 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 22:20:01.177 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:26:20.474 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:26:20.489 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:26:20.489 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:26:20.589 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:26:20.590 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 711 ms
+2020-10-28 22:26:20.718 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:26:20.772 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:26:20.856 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:26:27.048 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:26:27.048 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:26:27.052 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:26:27.484 WARN  [http-nio-80-exec-5] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:28:32.045 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:28:32.060 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:28:32.060 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:28:32.148 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:28:32.149 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 682 ms
+2020-10-28 22:28:32.275 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:28:32.332 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:28:32.414 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:28:40.353 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:28:40.353 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:28:40.358 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 22:28:40.780 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:29:45.280 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:29:45.295 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:29:45.295 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:29:45.383 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:29:45.383 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 657 ms
+2020-10-28 22:29:45.516 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:29:45.574 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:29:45.660 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:29:48.543 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:29:48.543 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:29:48.547 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:29:48.967 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:30:09.130 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:30:09.146 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:30:09.146 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:30:09.235 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:30:09.236 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 747 ms
+2020-10-28 22:30:09.365 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:30:09.422 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:30:09.506 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:30:16.967 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:30:16.968 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:30:16.971 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:30:17.396 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:30:41.269 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:30:41.284 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:30:41.284 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:30:41.373 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:30:41.373 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 670 ms
+2020-10-28 22:30:41.501 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:30:41.555 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:30:41.639 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:30:46.846 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:30:46.846 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:30:46.851 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 22:30:47.274 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:31:33.718 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:31:33.733 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:31:33.733 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:31:33.823 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:31:33.823 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 678 ms
+2020-10-28 22:31:33.952 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:31:34.008 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:31:34.092 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:31:38.689 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:31:38.689 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:31:38.693 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 22:31:39.117 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:32:35.010 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:32:35.025 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:32:35.025 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:32:35.127 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:32:35.127 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 678 ms
+2020-10-28 22:32:35.259 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:32:35.313 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:32:35.394 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:32:42.876 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:32:42.877 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:32:42.880 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:32:43.279 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:33:21.919 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:33:21.934 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:33:21.935 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:33:22.024 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:33:22.024 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 671 ms
+2020-10-28 22:33:22.153 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:33:22.208 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:33:22.292 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:33:27.405 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:33:27.405 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:33:27.410 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 22:33:27.838 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:35:03.023 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:35:03.039 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:35:03.039 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:35:03.136 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:35:03.137 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 724 ms
+2020-10-28 22:35:03.265 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:35:03.319 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:35:03.402 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:35:06.886 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:35:06.886 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:35:06.890 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 22:35:07.293 WARN  [http-nio-80-exec-4] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:36:02.716 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:36:02.731 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:36:02.732 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:36:02.828 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:36:02.829 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 684 ms
+2020-10-28 22:36:02.955 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:36:03.010 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:36:03.092 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:36:06.199 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:36:06.199 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:36:06.203 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:36:06.635 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:38:33.585 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:38:33.600 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:38:33.600 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:38:33.689 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:38:33.689 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 669 ms
+2020-10-28 22:38:33.832 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:38:33.889 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:38:33.977 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:38:39.002 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:38:39.003 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:38:39.008 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 22:38:39.425 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:44:55.463 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:44:55.478 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:44:55.478 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:44:55.574 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:44:55.574 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 687 ms
+2020-10-28 22:44:55.714 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:44:55.769 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:44:55.854 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:44:59.517 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:44:59.518 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:44:59.524 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 6 ms
+2020-10-28 22:44:59.839 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:46:04.710 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:46:04.725 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:46:04.726 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:46:04.819 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:46:04.819 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 693 ms
+2020-10-28 22:46:04.957 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:46:05.012 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:46:05.099 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:46:08.714 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:46:08.714 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:46:08.719 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 22:46:09.169 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:50:20.780 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:50:20.795 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:50:20.796 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:50:20.882 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:50:20.882 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 661 ms
+2020-10-28 22:50:21.010 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:50:21.066 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:50:21.148 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:54:28.875 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:54:28.901 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:54:28.901 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:54:29.391 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:54:29.392 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1392 ms
+2020-10-28 22:54:29.588 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:54:29.670 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:54:29.784 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:54:30.293 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:54:30.293 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:54:30.297 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 22:54:30.906 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 22:54:51.272 INFO  [http-nio-80-exec-10] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 0 time(s); maxRetries=45
+2020-10-28 22:55:11.275 INFO  [http-nio-80-exec-10] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 1 time(s); maxRetries=45
+2020-10-28 22:55:31.052 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 22:55:31.067 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 22:55:31.067 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 22:55:31.166 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 22:55:31.167 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 780 ms
+2020-10-28 22:55:31.375 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 22:55:31.443 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 22:55:31.531 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 22:55:31.622 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 22:55:31.622 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 22:55:31.627 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-10-28 22:55:51.966 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:01:37.815 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:01:37.836 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:01:37.837 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:01:38.273 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:01:38.273 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1513 ms
+2020-10-28 23:01:38.502 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:01:38.589 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:01:38.723 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:01:43.378 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:01:43.378 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:01:43.386 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 7 ms
+2020-10-28 23:01:55.293 WARN  [http-nio-80-exec-2] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:02:15.614 INFO  [http-nio-80-exec-2] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 0 time(s); maxRetries=45
+2020-10-28 23:02:35.625 INFO  [http-nio-80-exec-2] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 1 time(s); maxRetries=45
+2020-10-28 23:02:55.626 INFO  [http-nio-80-exec-2] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 2 time(s); maxRetries=45
+2020-10-28 23:03:15.629 INFO  [http-nio-80-exec-2] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 3 time(s); maxRetries=45
+2020-10-28 23:06:38.383 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:06:38.398 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:06:38.399 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:06:38.489 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:06:38.489 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 683 ms
+2020-10-28 23:06:38.620 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:06:38.675 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:06:38.757 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:06:50.849 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:06:50.850 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:06:50.854 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 23:06:51.285 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:11:54.165 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:11:54.180 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:11:54.180 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:11:54.266 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:11:54.266 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 674 ms
+2020-10-28 23:11:54.396 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:11:54.450 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:11:54.531 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:12:01.551 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:12:01.551 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:12:01.554 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-10-28 23:12:01.988 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:12:54.538 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:12:54.553 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:12:54.553 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:12:54.640 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:12:54.641 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 674 ms
+2020-10-28 23:12:54.769 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:12:54.826 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:12:54.923 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:12:58.702 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:12:58.702 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:12:58.706 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 23:12:58.960 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:13:25.670 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:13:25.685 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:13:25.685 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:13:25.771 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:13:25.772 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 687 ms
+2020-10-28 23:13:25.904 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:13:25.959 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:13:26.043 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:13:34.871 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:13:34.871 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:13:34.875 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 23:13:35.113 WARN  [http-nio-80-exec-1] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-10-28 23:16:33.663 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-28 23:16:33.679 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-28 23:16:33.679 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-28 23:16:33.766 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-28 23:16:33.766 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 683 ms
+2020-10-28 23:16:33.904 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-28 23:16:33.959 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-28 23:16:34.051 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-10-28 23:16:37.763 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-28 23:16:37.764 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-10-28 23:16:37.768 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-10-28 23:16:38.190 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

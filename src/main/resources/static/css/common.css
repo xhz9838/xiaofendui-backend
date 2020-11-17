@@ -1,0 +1,132 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: #fff;
+}
+body{
+    background-image: url('../images/section_mobile_bg.jpg');
+    width: 100%;
+    height: 100%;
+}
+
+
+@font-face{
+    font-family: shufa;
+    src: url('/fonts/书法.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+header h1{
+    font-size: 5em;
+    font-family: shufa;
+    margin: 70px 150px 70px 150px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+}
+ul#nav{
+    width: 100%;
+    height: 60px;
+    background: rgba(11, 11, 155, 0.548);
+}
+ul#nav li{
+    display: inline;
+    height: 60px;
+}
+ul#nav li{
+    display: inline-block;
+    padding: 0 20rpx;
+    height: 60px;
+    line-height: 60px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+ul#nav li a{
+    color: #fff;
+    margin-left: 100px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.8);
+}
+ul#nav li a:hover{
+    background: rgba(68, 59, 71, 0.205);
+    font-weight: bold;
+    color: rgb(45, 166, 214);
+}
+
+body #side{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    color: black;
+    text-align: center;
+    margin: 20px 30px 50px 30px;
+}
+body #side input{
+    width: 200rpx;
+    height: 30px;
+    text-align: center;
+    color: #ccc;
+}
+.search {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 20%;
+    color: black;
+    text-align: center;
+    margin: 20px 30px 50px 30px;
+}
+.search input{
+    width: 200rpx;
+    height: 30px;
+    text-align: center;
+    color: #ccc;
+}
+.sousuo{
+    color: #fff !important;
+    background-color: rgb(34, 140, 182);
+    font-size: 21px;
+    border: 2px #ccc solid;
+    margin-top: 10px;
+}
+.sousuo:hover{
+    background: rgba(68, 59, 71, 0.205);
+    font-weight: bold;
+    color: rgb(45, 166, 214);
+    box-shadow: -2px -2px rgba(32, 32, 32, 0.8) ;
+}
+.sousuokuang{
+    box-shadow: -0.5px 0.5px rgba(14, 3, 54, 0.74);
+}
+
+section{
+    text-align: left;
+    float: right;
+    width: 70%;
+    margin: 10px 40px 10px 10px;
+}
+
+#chuizhixian{
+    display: inline-block;
+    width: 10px;
+    height: 800px;
+    border-right: 5px solid #ccc;
+    clear: both;
+}
+
+#shuipingxian{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1.5px rgba(14, 3, 54, 0.74);
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 1px 1px rgba(14, 3, 54, 0.74);
+}
+footer p span{
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+}

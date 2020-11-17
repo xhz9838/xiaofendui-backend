@@ -1,0 +1,654 @@
+2020-11-17 10:23:35.361 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 10:23:35.392 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 10:23:35.396 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 10:23:35.677 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 10:23:35.677 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1647 ms
+2020-11-17 10:23:35.931 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 10:23:36.017 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 10:23:36.190 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 10:24:02.223 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 10:24:02.223 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 10:24:02.227 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-11-17 10:24:05.264 ERROR [http-nio-80-exec-10] org.apache.hadoop.util.Shell[374] - Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:356)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:371)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:364)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2807)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2802)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2668)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:160)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:157)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:157)
+	at cn.edu.sdbi.utils.HdfsUtils.getFileSystem(HdfsUtils.java:46)
+	at cn.edu.sdbi.service.impl.AttachmentServiceImpl.findByPath(AttachmentServiceImpl.java:64)
+	at cn.edu.sdbi.controller.api.AttachmentRestController.filesForDir(AttachmentRestController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-17 10:24:05.637 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-17 10:53:12.099 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 10:53:12.118 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 10:53:12.118 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 10:53:12.227 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 10:53:12.227 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 991 ms
+2020-11-17 10:53:12.391 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 10:53:12.462 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 10:53:12.544 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 10:53:12.548 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 10:53:12.866 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 10:53:12.870 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 10:53:12.874 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:11:31.669 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:11:31.693 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:11:31.694 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:11:31.804 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:11:31.805 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 974 ms
+2020-11-17 11:11:32.023 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:11:32.122 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:11:32.215 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 11:11:32.219 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 11:11:32.229 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 11:11:32.234 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 11:11:32.236 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:12:19.323 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:12:19.343 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:12:19.344 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:12:19.879 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:12:19.880 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1411 ms
+2020-11-17 11:12:20.086 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:12:20.183 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:12:20.303 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 11:12:43.229 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 11:12:43.230 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 11:12:43.233 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-11-17 11:12:43.502 ERROR [http-nio-80-exec-10] org.apache.hadoop.util.Shell[374] - Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:356)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:371)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:364)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2807)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2802)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2668)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:160)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:157)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:157)
+	at cn.edu.sdbi.utils.HdfsUtils.getFileSystem(HdfsUtils.java:46)
+	at cn.edu.sdbi.service.impl.AttachmentServiceImpl.findByPath(AttachmentServiceImpl.java:64)
+	at cn.edu.sdbi.controller.api.AttachmentRestController.filesForDir(AttachmentRestController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-17 11:12:43.664 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-17 11:32:58.569 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:32:58.593 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:32:58.594 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:32:58.710 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:32:58.710 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1055 ms
+2020-11-17 11:32:58.908 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:32:58.986 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:32:59.082 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 11:32:59.086 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 11:32:59.097 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 11:32:59.101 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 11:32:59.103 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:33:31.840 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:33:31.868 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:33:31.868 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:33:32.024 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:33:32.025 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1033 ms
+2020-11-17 11:33:32.261 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:33:32.349 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:33:32.448 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 11:33:32.453 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 11:33:32.461 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 11:33:32.470 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 11:33:32.473 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:38:17.827 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:38:17.854 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:38:17.855 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:38:17.965 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:38:17.965 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1031 ms
+2020-11-17 11:38:18.160 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:38:18.228 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:38:18.307 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 11:38:18.312 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 11:38:18.321 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 11:38:18.324 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 11:38:18.327 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:38:28.721 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 11:38:28.749 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 11:38:28.749 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 11:38:28.883 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 11:38:28.884 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 870 ms
+2020-11-17 11:38:29.122 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 11:38:29.230 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 11:38:29.351 ERROR [main] o.apache.catalina.util.LifecycleBase[175] - Failed to start component [Connector[HTTP/1.1-80]]
+org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1008)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:227)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:263)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:195)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:296)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at cn.edu.sdbi.UploadApplication.main(UploadApplication.java:14)
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:230)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:213)
+	at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1124)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1210)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:585)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1005)
+	... 14 common frames omitted
+2020-11-17 11:38:29.357 INFO  [main] o.a.catalina.core.StandardService[173] - Stopping service [Tomcat]
+2020-11-17 11:38:29.365 INFO  [main] o.s.b.a.l.ConditionEvaluationReportLoggingListener[135] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-17 11:38:29.372 ERROR [main] o.s.b.d.LoggingFailureAnalysisReporter[40] - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 80 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 80, or configure this application to listen on another port.
+
+2020-11-17 11:38:29.375 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[208] - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-17 13:57:04.674 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 13:57:04.692 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 13:57:04.692 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 13:57:04.960 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 13:57:04.961 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1667 ms
+2020-11-17 13:57:05.121 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 13:57:05.201 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 13:57:05.299 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 13:57:31.561 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 13:57:31.562 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 13:57:31.566 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 4 ms
+2020-11-17 13:57:32.246 ERROR [http-nio-80-exec-3] org.apache.hadoop.util.Shell[374] - Failed to locate the winutils binary in the hadoop binary path
+java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:356)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:371)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:364)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2807)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2802)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2668)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:371)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:160)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:157)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1657)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:157)
+	at cn.edu.sdbi.utils.HdfsUtils.getFileSystem(HdfsUtils.java:46)
+	at cn.edu.sdbi.service.impl.AttachmentServiceImpl.findByPath(AttachmentServiceImpl.java:64)
+	at cn.edu.sdbi.controller.api.AttachmentRestController.filesForDir(AttachmentRestController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:104)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1039)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:109)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-17 13:57:32.423 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-17 14:14:23.182 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 14:14:23.201 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 14:14:23.202 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 14:14:23.294 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 14:14:23.295 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 795 ms
+2020-11-17 14:14:23.426 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 14:14:23.487 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 14:14:23.579 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 14:14:33.966 INFO  [http-nio-80-exec-1] o.a.tomcat.util.http.parser.Cookie[173] - A cookie header was received [1604559962,1604727298; Admin-Token=admin-token] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-17 14:14:33.971 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 14:14:33.971 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 14:14:33.974 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 3 ms
+2020-11-17 14:14:36.330 WARN  [http-nio-80-exec-3] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-17 14:14:56.594 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 0 time(s); maxRetries=45
+2020-11-17 14:15:16.599 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 1 time(s); maxRetries=45
+2020-11-17 14:15:36.601 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 2 time(s); maxRetries=45
+2020-11-17 14:15:56.604 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 3 time(s); maxRetries=45
+2020-11-17 14:16:16.605 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 4 time(s); maxRetries=45
+2020-11-17 14:16:26.116 INFO  [http-nio-80-exec-1] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 0 time(s); maxRetries=45
+2020-11-17 14:16:36.613 INFO  [http-nio-80-exec-3] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 5 time(s); maxRetries=45
+2020-11-17 14:16:46.117 INFO  [http-nio-80-exec-1] org.apache.hadoop.ipc.Client[837] - Retrying connect to server: hadoop101/192.168.200.101:9000. Already tried 1 time(s); maxRetries=45
+2020-11-17 14:27:53.992 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 14:27:54.011 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 14:27:54.012 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 14:27:54.109 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 14:27:54.109 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 740 ms
+2020-11-17 14:27:54.243 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 14:27:54.300 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 14:27:54.390 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 14:28:01.324 INFO  [http-nio-80-exec-1] o.a.tomcat.util.http.parser.Cookie[173] - A cookie header was received [1584237795,1585787402,1585841192] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-17 14:28:01.329 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 14:28:01.330 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 14:28:01.335 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-11-17 14:28:01.775 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-11-17 14:28:40.012 INFO  [http-nio-80-exec-8] o.a.coyote.http11.Http11Processor[175] - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in the request target. The valid characters are defined in RFC 7230 and RFC 3986
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:468)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:294)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:853)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1587)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2020-11-17 14:34:14.745 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-11-17 14:34:14.763 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-11-17 14:34:14.763 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-11-17 14:34:14.858 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-11-17 14:34:14.859 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 766 ms
+2020-11-17 14:34:15.003 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-17 14:34:15.061 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-11-17 14:34:15.149 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-17 14:34:21.370 INFO  [http-nio-80-exec-1] o.a.tomcat.util.http.parser.Cookie[173] - A cookie header was received [1584237795,1585787402,1585841192] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-11-17 14:34:21.379 INFO  [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-17 14:34:21.379 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[524] - Initializing Servlet 'dispatcherServlet'
+2020-11-17 14:34:21.384 INFO  [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet[546] - Completed initialization in 5 ms
+2020-11-17 14:34:21.790 WARN  [http-nio-80-exec-10] o.a.hadoop.util.NativeCodeLoader[62] - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable

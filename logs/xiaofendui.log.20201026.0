@@ -1,0 +1,8 @@
+2020-10-26 09:31:07.245 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[90] - Tomcat initialized with port(s): 80 (http)
+2020-10-26 09:31:07.268 INFO  [main] o.a.catalina.core.StandardService[173] - Starting service [Tomcat]
+2020-10-26 09:31:07.268 INFO  [main] o.a.catalina.core.StandardEngine[173] - Starting Servlet engine: [Apache Tomcat/9.0.21]
+2020-10-26 09:31:07.346 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/][173] - Initializing Spring embedded WebApplicationContext
+2020-10-26 09:31:07.347 INFO  [main] o.s.web.context.ContextLoader[283] - Root WebApplicationContext: initialization completed in 1190 ms
+2020-10-26 09:31:08.126 INFO  [main] o.s.s.c.ThreadPoolTaskExecutor[171] - Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-26 09:31:08.222 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping[54] - Adding welcome page: class path resource [static/index.html]
+2020-10-26 09:31:08.393 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer[202] - Tomcat started on port(s): 80 (http) with context path ''
